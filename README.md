@@ -103,9 +103,11 @@ then it'll bring up my snippet at the first place.
 
 ## Screenshots
 
-Start typing the trigger string. Press TAB to accept and activate the snippet.
+Start typing the trigger string.
 
 ![](assets/01.png)
+
+Press TAB to accept and activate the snippet.
 
 ![](assets/02.png)
 
