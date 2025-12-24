@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 PRG="convert_snippet_to_vscode.py"
-DEST_DIR="$HOME/Dropbox/share/vscode_settings_windows_linux/snippets"
+DEST_DIR="$HOME/.config/Code/User/snippets"
 #
 SNIPPET="d.snippets"
 VSCODE="d.json"
