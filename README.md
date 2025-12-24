@@ -6,7 +6,7 @@ Convert snippets using snipMate format to VS Code's JSON format.
 
 I use VS Code a lot and snippets are very useful. However, writing
 snippets (especially multi-line, longer) snippets in VS Code's JSON
-format is a PITA. I found an [https://snippet-generator.app/?description=&tabtrigger=&snippet=&mode=vscode](online generator), but still. Just look at this:
+format is a PITA. I found an [online generator](https://snippet-generator.app/?description=&tabtrigger=&snippet=&mode=vscode), but still. Just look at this:
 
 ```json
     "input()": {
@@ -29,8 +29,8 @@ What if I want to modify the body? There must be a better way!
 
 ## Solution
 
-I also use Neovim, and I found a [https://github.com/L3MON4D3/LuaSnip](snippet plugin) that supports
-a snippet format (called snipMate) that is MUCH simpler. Let's
+I also use Neovim, and I found a [snippet plugin](https://github.com/L3MON4D3/LuaSnip)
+that supports a snippet format (called snipMate) that is MUCH simpler. Let's
 see the previous snippet in this format:
 
 ```
