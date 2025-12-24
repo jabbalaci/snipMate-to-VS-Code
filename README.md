@@ -74,7 +74,7 @@ I suggest using a shell script that redirects the output and
 overwrites (updates) the VS Code snippet file. You can find
 such a shell script in this repo.
 
-Under Linux, the snippet files are here: `~/.config/Code/User/snippets`
+Under Linux, the VS Code snippet files are here: `~/.config/Code/User/snippets`
 
 ## Workflow
 
@@ -88,7 +88,8 @@ when the snippets change.
 
 ## Tip
 
-After the trigger word, I also add the beginning of the snippet.
+After the trigger text (which is the value of the key `prefix`),
+I also add the beginning of the snippet.
 In VS Code, this extra text is also displayed in the pop-up, making
 it easier to select the snippet you need. This description is added
 after the trigger string and is separated by a space. Thus, if you
