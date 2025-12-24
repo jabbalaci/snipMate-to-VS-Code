@@ -1,0 +1,1125 @@
+// DON'T EDIT THIS FILE MANUALLY! It's generated from `d.snippets`. Edit `d.snippets` instead.
+// Location: ~/Dropbox/home/jabba/.config/nvim.ks/snippets/d.snippets
+{
+    "pimp": {
+        "prefix": "pimp public import",
+        "body": [
+            "public import"
+        ],
+        "description": "public import"
+    },
+    "io": {
+        "prefix": "io import std.stdio;",
+        "body": [
+            "import std.stdio;"
+        ],
+        "description": "import std.stdio;"
+    },
+    "traits": {
+        "prefix": "traits import std.traits;",
+        "body": [
+            "import std.traits;"
+        ],
+        "description": "import std.traits;"
+    },
+    "conv": {
+        "prefix": "conv import std.conv;",
+        "body": [
+            "import std.conv;"
+        ],
+        "description": "import std.conv;"
+    },
+    "array": {
+        "prefix": "array import std.array;",
+        "body": [
+            "import std.array;"
+        ],
+        "description": "import std.array;"
+    },
+    "alg": {
+        "prefix": "alg import std.algorithm;",
+        "body": [
+            "import std.algorithm;"
+        ],
+        "description": "import std.algorithm;"
+    },
+    "search": {
+        "prefix": "search import std.algorithm.sear...",
+        "body": [
+            "import std.algorithm.searching;"
+        ],
+        "description": "import std.algorithm.searching;"
+    },
+    "ascii": {
+        "prefix": "ascii import std.ascii;",
+        "body": [
+            "import std.ascii;"
+        ],
+        "description": "import std.ascii;"
+    },
+    "math": {
+        "prefix": "math import std.math;",
+        "body": [
+            "import std.math;"
+        ],
+        "description": "import std.math;"
+    },
+    "json": {
+        "prefix": "json import std.json;",
+        "body": [
+            "import std.json;"
+        ],
+        "description": "import std.json;"
+    },
+    "func": {
+        "prefix": "func import std.functional;",
+        "body": [
+            "import std.functional;"
+        ],
+        "description": "import std.functional;"
+    },
+    "stringg": {
+        "prefix": "stringg import std.string;",
+        "body": [
+            "import std.string;"
+        ],
+        "description": "import std.string;"
+    },
+    "strr": {
+        "prefix": "strr import std.string;",
+        "body": [
+            "import std.string;"
+        ],
+        "description": "import std.string;"
+    },
+    "regex": {
+        "prefix": "regex import std.regex;",
+        "body": [
+            "import std.regex;"
+        ],
+        "description": "import std.regex;"
+    },
+    "range": {
+        "prefix": "range import std.range;",
+        "body": [
+            "import std.range;"
+        ],
+        "description": "import std.range;"
+    },
+    "format": {
+        "prefix": "format import std.format;",
+        "body": [
+            "import std.format;"
+        ],
+        "description": "import std.format;"
+    },
+    "random": {
+        "prefix": "random import std.random;",
+        "body": [
+            "import std.random;"
+        ],
+        "description": "import std.random;"
+    },
+    "file": {
+        "prefix": "file import std.file;",
+        "body": [
+            "import std.file;"
+        ],
+        "description": "import std.file;"
+    },
+    "advent": {
+        "prefix": "advent import advent;",
+        "body": [
+            "import advent;"
+        ],
+        "description": "import advent;"
+    },
+    "iter": {
+        "prefix": "iter import std.algorithm.iter...",
+        "body": [
+            "import std.algorithm.iteration;"
+        ],
+        "description": "import std.algorithm.iteration;"
+    },
+    "bigint": {
+        "prefix": "bigint import std.bigint;",
+        "body": [
+            "import std.bigint;"
+        ],
+        "description": "import std.bigint;"
+    },
+    "tuple": {
+        "prefix": "tuple import std.typecons;",
+        "body": [
+            "import std.typecons;"
+        ],
+        "description": "import std.typecons;"
+    },
+    "path": {
+        "prefix": "path import std.path;",
+        "body": [
+            "import std.path;"
+        ],
+        "description": "import std.path;"
+    },
+    "process": {
+        "prefix": "process import std.process;",
+        "body": [
+            "import std.process;"
+        ],
+        "description": "import std.process;"
+    },
+    "numeric": {
+        "prefix": "numeric import std.numeric;",
+        "body": [
+            "import std.numeric;"
+        ],
+        "description": "import std.numeric;"
+    },
+    "exit": {
+        "prefix": "exit import core.stdc.stdlib;",
+        "body": [
+            "import core.stdc.stdlib;"
+        ],
+        "description": "import core.stdc.stdlib;"
+    },
+    "unittest": {
+        "prefix": "unittest import std.exception; //...",
+        "body": [
+            "import std.exception; // assertThrown(), assertNotThrown()"
+        ],
+        "description": "import std.exception; // assertThrown(), assertNotThrown()"
+    },
+    "exc": {
+        "prefix": "exc import std.exception; //...",
+        "body": [
+            "import std.exception; // assumeUnique()"
+        ],
+        "description": "import std.exception; // assumeUnique()"
+    },
+    "ass": {
+        "prefix": "ass assert($0);",
+        "body": [
+            "assert($0);"
+        ],
+        "description": "assert($0);"
+    },
+    "modules": {
+        "prefix": "modules import std.stdio, std.str...",
+        "body": [
+            "import std.stdio, std.string, std.array;",
+            "import std.traits, std.conv, std.algorithm;",
+            "import std.math, std.regex;"
+        ],
+        "description": "import std.stdio, std.string, std.array;"
+    },
+    "for": {
+        "prefix": "for for(int ${1:i} = 0; $1 <...",
+        "body": [
+            "for(int ${1:i} = 0; $1 < ${2:count}; ++$1) {",
+            "    ${0}",
+            "}"
+        ],
+        "description": "for(int ${1:i} = 0; $1 < ${2:count}; ++$1) {"
+    },
+    "fe": {
+        "prefix": "fe foreach(${1:elem}; ${2:ra...",
+        "body": [
+            "foreach(${1:elem}; ${2:range})",
+            "{",
+            "    ${0}",
+            "}"
+        ],
+        "description": "foreach(${1:elem}; ${2:range})"
+    },
+    "fei": {
+        "prefix": "fei foreach(${1:i}, ${2:elem}...",
+        "body": [
+            "foreach(${1:i}, ${2:elem}; ${3:range}) {",
+            "    ${0}",
+            "}"
+        ],
+        "description": "foreach(${1:i}, ${2:elem}; ${3:range}) {"
+    },
+    "fer": {
+        "prefix": "fer foreach_reverse(${1:elem}...",
+        "body": [
+            "foreach_reverse(${1:elem}; ${2:range}) {",
+            "    ${0}",
+            "}"
+        ],
+        "description": "foreach_reverse(${1:elem}; ${2:range}) {"
+    },
+    "feri": {
+        "prefix": "feri foreach_reverse(${1:i}, $...",
+        "body": [
+            "foreach_reverse(${1:i}, ${2:elem}; ${3:range}) {",
+            "    ${0}",
+            "}"
+        ],
+        "description": "foreach_reverse(${1:i}, ${2:elem}; ${3:range}) {"
+    },
+    "sce": {
+        "prefix": "sce scope(exit) ${1:f.close()...",
+        "body": [
+            "scope(exit) ${1:f.close();}"
+        ],
+        "description": "scope(exit) ${1:f.close();}"
+    },
+    "scs": {
+        "prefix": "scs scope(success) ${1}",
+        "body": [
+            "scope(success) ${1}"
+        ],
+        "description": "scope(success) ${1}"
+    },
+    "scf": {
+        "prefix": "scf scope(failure) ${1}",
+        "body": [
+            "scope(failure) ${1}"
+        ],
+        "description": "scope(failure) ${1}"
+    },
+    "el": {
+        "prefix": "el else {",
+        "body": [
+            "else {",
+            "    ${1}",
+            "}"
+        ],
+        "description": "else {"
+    },
+    "eif": {
+        "prefix": "eif else if(${1}) {",
+        "body": [
+            "else if(${1}) {",
+            "    ${0}",
+            "}"
+        ],
+        "description": "else if(${1}) {"
+    },
+    "if": {
+        "prefix": "if if(${1}) {",
+        "body": [
+            "if(${1}) {",
+            "    ${0}",
+            "}"
+        ],
+        "description": "if(${1}) {"
+    },
+    "ife": {
+        "prefix": "ife if(${1}) {",
+        "body": [
+            "if(${1}) {",
+            "    ${2}",
+            "} else {",
+            "    ${3}",
+            "}"
+        ],
+        "description": "if(${1}) {"
+    },
+    "ifee": {
+        "prefix": "ifee if(${1}) {",
+        "body": [
+            "if(${1}) {",
+            "    ${2}",
+            "} else if(${3}) {",
+            "    ${4}",
+            "} else {",
+            "    ${5}",
+            "}"
+        ],
+        "description": "if(${1}) {"
+    },
+    "sw": {
+        "prefix": "sw switch(${1}) {",
+        "body": [
+            "switch(${1}) {",
+            "    ${0}",
+            "}"
+        ],
+        "description": "switch(${1}) {"
+    },
+    "cs": {
+        "prefix": "cs case ${1:0}:",
+        "body": [
+            "case ${1:0}:",
+            "    ${2}",
+            "    break;"
+        ],
+        "description": "case ${1:0}:"
+    },
+    "def": {
+        "prefix": "def default:",
+        "body": [
+            "default:",
+            "    ${0}"
+        ],
+        "description": "default:"
+    },
+    "fsw": {
+        "prefix": "fsw final switch(${1}) {",
+        "body": [
+            "final switch(${1}) {",
+            "    ${0}",
+            "}"
+        ],
+        "description": "final switch(${1}) {"
+    },
+    "try": {
+        "prefix": "try try {",
+        "body": [
+            "try {",
+            "    ${1}",
+            "} catch(${2:Exception} ${3:e}) {",
+            "    ${4}",
+            "}"
+        ],
+        "description": "try {"
+    },
+    "tcf": {
+        "prefix": "tcf try {",
+        "body": [
+            "try {",
+            "    ${0}",
+            "} catch(${1:Exception} ${2:e}) {",
+            "    ${3}",
+            "} finally {",
+            "    ${4}",
+            "}"
+        ],
+        "description": "try {"
+    },
+    "wh": {
+        "prefix": "wh while(${1:cond}) {",
+        "body": [
+            "while(${1:cond}) {",
+            "    ${0}",
+            "}"
+        ],
+        "description": "while(${1:cond}) {"
+    },
+    "dowh": {
+        "prefix": "dowh do {",
+        "body": [
+            "do {",
+            "    ${1}",
+            "} while(${2});"
+        ],
+        "description": "do {"
+    },
+    "sif": {
+        "prefix": "sif static if(${1:cond}) {",
+        "body": [
+            "static if(${1:cond}) {",
+            "    ${2}",
+            "}"
+        ],
+        "description": "static if(${1:cond}) {"
+    },
+    "sife": {
+        "prefix": "sife static if(${1}) {",
+        "body": [
+            "static if(${1}) {",
+            "    ${2}",
+            "} else {",
+            "    ${3}",
+            "}"
+        ],
+        "description": "static if(${1}) {"
+    },
+    "sifee": {
+        "prefix": "sifee static if(${1}) {",
+        "body": [
+            "static if(${1}) {",
+            "    ${2}",
+            "} else static if(${3}) {",
+            "    ${4}",
+            "} else {",
+            "    ${5}",
+            "}"
+        ],
+        "description": "static if(${1}) {"
+    },
+    "seif": {
+        "prefix": "seif else static if(${1}) {",
+        "body": [
+            "else static if(${1}) {",
+            "    ${2}",
+            "}"
+        ],
+        "description": "else static if(${1}) {"
+    },
+    "?": {
+        "prefix": "? (${1: a > b}) ? ${2:a} :...",
+        "body": [
+            "(${1: a > b}) ? ${2:a} : ${3:b};"
+        ],
+        "description": "(${1: a > b}) ? ${2:a} : ${3:b};"
+    },
+    "with": {
+        "prefix": "with with(${1:exp}) {",
+        "body": [
+            "with(${1:exp}) {",
+            "    ${2}",
+            "} ${0}"
+        ],
+        "description": "with(${1:exp}) {"
+    },
+    "fun": {
+        "prefix": "fun ${1:auto} ${2:func}(${3:p...",
+        "body": [
+            "${1:auto} ${2:func}(${3:params}) {",
+            "    ${0}",
+            "}"
+        ],
+        "description": "${1:auto} ${2:func}(${3:params}) {"
+    },
+    "contr": {
+        "prefix": "contr in {",
+        "body": [
+            "in {",
+            "    ${1}",
+            "} out {",
+            "    ${2}",
+            "} body {",
+            "    ${0}",
+            "}"
+        ],
+        "description": "in {"
+    },
+    "l": {
+        "prefix": "l (${1:x}) => ${2:x}${0:;}",
+        "body": [
+            "(${1:x}) => ${2:x}${0:;}"
+        ],
+        "description": "(${1:x}) => ${2:x}${0:;}"
+    },
+    "funl": {
+        "prefix": "funl function (${1:int x}) =>...",
+        "body": [
+            "function (${1:int x}) => ${2}${3:;}"
+        ],
+        "description": "function (${1:int x}) => ${2}${3:;}"
+    },
+    "del": {
+        "prefix": "del delegate (${1:int x}) =>...",
+        "body": [
+            "delegate (${1:int x}) => ${2}${3:;}"
+        ],
+        "description": "delegate (${1:int x}) => ${2}${3:;}"
+    },
+    "temp": {
+        "prefix": "temp template ${1:`vim_snippet...",
+        "body": [
+            "template ${1:`vim_snippets#Filename(\"$2\", \"untitled\")`}(${2:T}) {",
+            "    ${0}",
+            "}"
+        ],
+        "description": "template ${1:`vim_snippets#Filename(\"$2\", \"untitled\")`}(${2:T}) {"
+    },
+    "tempif": {
+        "prefix": "tempif template ${1:`vim_snippet...",
+        "body": [
+            "template ${1:`vim_snippets#Filename(\"$2\", \"untitled\")`}(${2:T}) if(${3:isSomeString!}$2) {",
+            "    ${0}",
+            "}"
+        ],
+        "description": "template ${1:`vim_snippets#Filename(\"$2\", \"untitled\")`}(${2:T}) if(${3:isSomeString!}$2) {"
+    },
+    "opApply": {
+        "prefix": "opApply int opApply(Dg)(Dg dg) if...",
+        "body": [
+            "int opApply(Dg)(Dg dg) if(ParameterTypeTuble!Dg.length == 2) {",
+            "    ${0}",
+            "}"
+        ],
+        "description": "int opApply(Dg)(Dg dg) if(ParameterTypeTuble!Dg.length == 2) {"
+    },
+    "psn": {
+        "prefix": "psn pure @safe nothrow",
+        "body": [
+            "pure @safe nothrow"
+        ],
+        "description": "pure @safe nothrow"
+    },
+    "safe": {
+        "prefix": "safe @safe",
+        "body": [
+            "@safe"
+        ],
+        "description": "@safe"
+    },
+    "trusted": {
+        "prefix": "trusted @trusted",
+        "body": [
+            "@trusted",
+            "snippet    system",
+            "@system"
+        ],
+        "description": "@trusted"
+    },
+    "cl": {
+        "prefix": "cl class${1:(T)} ${2:`vim_sn...",
+        "body": [
+            "class${1:(T)} ${2:`vim_snippets#Filename(\"$3\", \"untitled\")`} {",
+            "    ${0}",
+            "}"
+        ],
+        "description": "class${1:(T)} ${2:`vim_snippets#Filename(\"$3\", \"untitled\")`} {"
+    },
+    "uni": {
+        "prefix": "uni union${1:(T)} ${2:`vim_sn...",
+        "body": [
+            "union${1:(T)} ${2:`vim_snippets#Filename(\"$3\", \"untitled\")`} {",
+            "    ${0}",
+            "}"
+        ],
+        "description": "union${1:(T)} ${2:`vim_snippets#Filename(\"$3\", \"untitled\")`} {"
+    },
+    "inter": {
+        "prefix": "inter interface I${1:`vim_snipp...",
+        "body": [
+            "interface I${1:`vim_snippets#Filename(\"$2\", \"untitled\")`} {",
+            "    ${0}",
+            "}"
+        ],
+        "description": "interface I${1:`vim_snippets#Filename(\"$2\", \"untitled\")`} {"
+    },
+    "enum": {
+        "prefix": "enum enum ${1} {",
+        "body": [
+            "enum ${1} {",
+            "    ${0}",
+            "}"
+        ],
+        "description": "enum ${1} {"
+    },
+    "pu": {
+        "prefix": "pu public",
+        "body": [
+            "public"
+        ],
+        "description": "public"
+    },
+    "pr": {
+        "prefix": "pr private",
+        "body": [
+            "private"
+        ],
+        "description": "private"
+    },
+    "po": {
+        "prefix": "po protected",
+        "body": [
+            "protected"
+        ],
+        "description": "protected"
+    },
+    "ctor": {
+        "prefix": "ctor this(${1}) {",
+        "body": [
+            "this(${1}) {",
+            "    ${0}",
+            "}"
+        ],
+        "description": "this(${1}) {"
+    },
+    "dtor": {
+        "prefix": "dtor ~this(${1}) {",
+        "body": [
+            "~this(${1}) {",
+            "    ${0}",
+            "}"
+        ],
+        "description": "~this(${1}) {"
+    },
+    "al": {
+        "prefix": "al alias ${1:b} = ${2:a};",
+        "body": [
+            "alias ${1:b} = ${2:a};",
+            "${0}"
+        ],
+        "description": "alias ${1:b} = ${2:a};"
+    },
+    "alth": {
+        "prefix": "alth alias ${1:value} this;",
+        "body": [
+            "alias ${1:value} this;",
+            "${0}"
+        ],
+        "description": "alias ${1:value} this;"
+    },
+    "main": {
+        "prefix": "main void main() {",
+        "body": [
+            "void main() {",
+            "    ${0}",
+            "}"
+        ],
+        "description": "void main() {"
+    },
+    "maina": {
+        "prefix": "maina void main(string[] args)...",
+        "body": [
+            "void main(string[] args) {",
+            "    ${0}",
+            "}"
+        ],
+        "description": "void main(string[] args) {"
+    },
+    "mod": {
+        "prefix": "mod module ${1:main};${0}",
+        "body": [
+            "module ${1:main};${0}"
+        ],
+        "description": "module ${1:main};${0}"
+    },
+    "var": {
+        "prefix": "var ${1:auto} ${2:var} = ${0:...",
+        "body": [
+            "${1:auto} ${2:var} = ${0:1};"
+        ],
+        "description": "${1:auto} ${2:var} = ${0:1};"
+    },
+    "new": {
+        "prefix": "new ${1:auto} ${2:var} = new...",
+        "body": [
+            "${1:auto} ${2:var} = new ${3:Object}(${4});",
+            "${0}"
+        ],
+        "description": "${1:auto} ${2:var} = new ${3:Object}(${4});"
+    },
+    "map": {
+        "prefix": "map map!(${1:f})(${2:xs});",
+        "body": [
+            "map!(${1:f})(${2:xs});",
+            "${0}"
+        ],
+        "description": "map!(${1:f})(${2:xs});"
+    },
+    "filter": {
+        "prefix": "filter filter!(${1:p})(${2:xs});",
+        "body": [
+            "filter!(${1:p})(${2:xs});",
+            "${0}"
+        ],
+        "description": "filter!(${1:p})(${2:xs});"
+    },
+    "reduce": {
+        "prefix": "reduce reduce!(${1:f})(${2:xs});",
+        "body": [
+            "reduce!(${1:f})(${2:xs});",
+            "${0}"
+        ],
+        "description": "reduce!(${1:f})(${2:xs});"
+    },
+    "find": {
+        "prefix": "find find!(${1:p})($2:xs);",
+        "body": [
+            "find!(${1:p})($2:xs);",
+            "${0}"
+        ],
+        "description": "find!(${1:p})($2:xs);"
+    },
+    "aa": {
+        "prefix": "aa ${1:int}[${2:string}] ${3...",
+        "body": [
+            "${1:int}[${2:string}] ${3:dict} = ${0};"
+        ],
+        "description": "${1:int}[${2:string}] ${3:dict} = ${0};"
+    },
+    "#!": {
+        "prefix": "#! #!/usr/bin/env rdmd",
+        "body": [
+            "#!/usr/bin/env rdmd"
+        ],
+        "description": "#!/usr/bin/env rdmd"
+    },
+    "bang": {
+        "prefix": "bang #!/usr/bin/env rdmd",
+        "body": [
+            "#!/usr/bin/env rdmd"
+        ],
+        "description": "#!/usr/bin/env rdmd"
+    },
+    "rdmd": {
+        "prefix": "rdmd #!/usr/bin/env rdmd",
+        "body": [
+            "#!/usr/bin/env rdmd"
+        ],
+        "description": "#!/usr/bin/env rdmd"
+    },
+    "isstr": {
+        "prefix": "isstr isSomeString!${1:S}",
+        "body": [
+            "isSomeString!${1:S}"
+        ],
+        "description": "isSomeString!${1:S}"
+    },
+    "isnum": {
+        "prefix": "isnum isNumeric!${1:N}",
+        "body": [
+            "isNumeric!${1:N}"
+        ],
+        "description": "isNumeric!${1:N}"
+    },
+    "tos": {
+        "prefix": "tos to!string(${1:x});",
+        "body": [
+            "to!string(${1:x});",
+            "${0}"
+        ],
+        "description": "to!string(${1:x});"
+    },
+    "toi": {
+        "prefix": "toi to!int(${1:str});",
+        "body": [
+            "to!int(${1:str});",
+            "${0}"
+        ],
+        "description": "to!int(${1:str});"
+    },
+    "tod": {
+        "prefix": "tod to!double(${1:str});",
+        "body": [
+            "to!double(${1:str});",
+            "${0}"
+        ],
+        "description": "to!double(${1:str});"
+    },
+    "un": {
+        "prefix": "un unittest {",
+        "body": [
+            "unittest {",
+            "    ${0}",
+            "}"
+        ],
+        "description": "unittest {"
+    },
+    "ver": {
+        "prefix": "ver version(${1:Posix}) {",
+        "body": [
+            "version(${1:Posix}) {",
+            "    ${0}",
+            "}"
+        ],
+        "description": "version(${1:Posix}) {"
+    },
+    "de": {
+        "prefix": "de debug {",
+        "body": [
+            "debug {",
+            "    ${0}",
+            "}"
+        ],
+        "description": "debug {"
+    },
+    "sst": {
+        "prefix": "sst shared static this(${1})...",
+        "body": [
+            "shared static this(${1}) {",
+            "    ${0}",
+            "}"
+        ],
+        "description": "shared static this(${1}) {"
+    },
+    "td": {
+        "prefix": "td // Typedef is deprecated....",
+        "body": [
+            "// Typedef is deprecated. Use alias instead.",
+            "typedef"
+        ],
+        "description": "// Typedef is deprecated. Use alias instead."
+    },
+    "ino": {
+        "prefix": "ino inout",
+        "body": [
+            "inout"
+        ],
+        "description": "inout"
+    },
+    "co": {
+        "prefix": "co const",
+        "body": [
+            "const"
+        ],
+        "description": "const"
+    },
+    "au": {
+        "prefix": "au auto",
+        "body": [
+            "auto"
+        ],
+        "description": "auto"
+    },
+    "imm": {
+        "prefix": "imm immutable",
+        "body": [
+            "immutable"
+        ],
+        "description": "immutable"
+    },
+    "fin": {
+        "prefix": "fin final",
+        "body": [
+            "final"
+        ],
+        "description": "final"
+    },
+    "con": {
+        "prefix": "con const",
+        "body": [
+            "const"
+        ],
+        "description": "const"
+    },
+    "psi": {
+        "prefix": "psi private static immutable...",
+        "body": [
+            "private static immutable ${1:int} ${2:Constant} = ${3:1};",
+            "${0}"
+        ],
+        "description": "private static immutable ${1:int} ${2:Constant} = ${3:1};"
+    },
+    "prag": {
+        "prefix": "prag pragma(${1})",
+        "body": [
+            "pragma(${1})"
+        ],
+        "description": "pragma(${1})"
+    },
+    "pms": {
+        "prefix": "pms pragma(msg, ${1:Warning})...",
+        "body": [
+            "pragma(msg, ${1:Warning});"
+        ],
+        "description": "pragma(msg, ${1:Warning});"
+    },
+    "asm": {
+        "prefix": "asm asm {",
+        "body": [
+            "asm {",
+            "    ${1}",
+            "}"
+        ],
+        "description": "asm {"
+    },
+    "mixin": {
+        "prefix": "mixin mixin(${1:`writeln(\"Hello...",
+        "body": [
+            "mixin(${1:`writeln(\"Hello, World!\");`});"
+        ],
+        "description": "mixin(${1:`writeln(\"Hello, World!\");`});"
+    },
+    "over": {
+        "prefix": "over override",
+        "body": [
+            "override"
+        ],
+        "description": "override"
+    },
+    "ret": {
+        "prefix": "ret return ${1};",
+        "body": [
+            "return ${1};"
+        ],
+        "description": "return ${1};"
+    },
+    "FILE": {
+        "prefix": "FILE __FILE__",
+        "body": [
+            "__FILE__"
+        ],
+        "description": "__FILE__"
+    },
+    "MOD": {
+        "prefix": "MOD __MODULE__",
+        "body": [
+            "__MODULE__"
+        ],
+        "description": "__MODULE__"
+    },
+    "LINE": {
+        "prefix": "LINE __LINE__",
+        "body": [
+            "__LINE__"
+        ],
+        "description": "__LINE__"
+    },
+    "FUN": {
+        "prefix": "FUN __FUNCTION__",
+        "body": [
+            "__FUNCTION__"
+        ],
+        "description": "__FUNCTION__"
+    },
+    "PF": {
+        "prefix": "PF __PRETTY_FUNCTION__",
+        "body": [
+            "__PRETTY_FUNCTION__"
+        ],
+        "description": "__PRETTY_FUNCTION__"
+    },
+    "cast": {
+        "prefix": "cast cast(${1:T})(${2:val});",
+        "body": [
+            "cast(${1:T})(${2:val});"
+        ],
+        "description": "cast(${1:T})(${2:val});"
+    },
+    "/*": {
+        "prefix": "/* /*",
+        "body": [
+            "/*",
+            " * ${1}",
+            "*/"
+        ],
+        "description": "/*"
+    },
+    "idk": {
+        "prefix": "idk // I don't know how this...",
+        "body": [
+            "// I don't know how this works. Don't touch it."
+        ],
+        "description": "// I don't know how this works. Don't touch it."
+    },
+    "idfk": {
+        "prefix": "idfk // Don't FUCKING touch th...",
+        "body": [
+            "// Don't FUCKING touch this."
+        ],
+        "description": "// Don't FUCKING touch this."
+    },
+    "alap": {
+        "prefix": "alap #!/usr/bin/env rdmd",
+        "body": [
+            "#!/usr/bin/env rdmd",
+            "",
+            "import std.stdio;",
+            "",
+            "void main()",
+            "{",
+            "    writeln(\"${0}D Lang\");",
+            "}"
+        ],
+        "description": "#!/usr/bin/env rdmd"
+    },
+    "input()": {
+        "prefix": "input() import std.string; // rea...",
+        "body": [
+            "import std.string; // readln(), chomp()",
+            "",
+            "string input(const string msg = \"\")",
+            "{",
+            "    write(msg);",
+            "    // chomp() removes the trailing newline",
+            "    return readln().chomp();",
+            "}"
+        ],
+        "description": "import std.string; // readln(), chomp()"
+    },
+    "wl": {
+        "prefix": "wl writeln(${0});",
+        "body": [
+            "writeln(${0});"
+        ],
+        "description": "writeln(${0});"
+    },
+    "wf": {
+        "prefix": "wf writefln(${0});",
+        "body": [
+            "writefln(${0});"
+        ],
+        "description": "writefln(${0});"
+    },
+    "wr": {
+        "prefix": "wr write(${0});",
+        "body": [
+            "write(${0});"
+        ],
+        "description": "write(${0});"
+    },
+    "off": {
+        "prefix": "off // dfmt off",
+        "body": [
+            "// dfmt off"
+        ],
+        "description": "// dfmt off"
+    },
+    "on": {
+        "prefix": "on // dfmt on",
+        "body": [
+            "// dfmt on"
+        ],
+        "description": "// dfmt on"
+    },
+    "str": {
+        "prefix": "str string",
+        "body": [
+            "string"
+        ],
+        "description": "string"
+    },
+    "stru": {
+        "prefix": "stru struct ${1:Name} {",
+        "body": [
+            "struct ${1:Name} {",
+            "    ${0}",
+            "}"
+        ],
+        "description": "struct ${1:Name} {"
+    },
+    "fmt": {
+        "prefix": "fmt format(${0})",
+        "body": [
+            "format(${0})"
+        ],
+        "description": "format(${0})"
+    },
+    "ut": {
+        "prefix": "ut unittest",
+        "body": [
+            "unittest",
+            "{",
+            "    ${0}",
+            "}"
+        ],
+        "description": "unittest"
+    },
+    "br": {
+        "prefix": "br break;",
+        "body": [
+            "break;"
+        ],
+        "description": "break;"
+    },
+    "cont": {
+        "prefix": "cont continue;",
+        "body": [
+            "continue;"
+        ],
+        "description": "continue;"
+    },
+    "fa": {
+        "prefix": "fa false",
+        "body": [
+            "false"
+        ],
+        "description": "false"
+    },
+    "tr": {
+        "prefix": "tr true",
+        "body": [
+            "true"
+        ],
+        "description": "true"
+    },
+    "type": {
+        "prefix": "type typeof(${0}).stringof",
+        "body": [
+            "typeof(${0}).stringof"
+        ],
+        "description": "typeof(${0}).stringof"
+    }
+}
